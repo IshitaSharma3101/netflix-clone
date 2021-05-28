@@ -9,7 +9,7 @@ function App() {
       <h1>netflix-clone</h1>
       <Row
         title='NETFLIX ORIGINALS'
-        fetchURL={requests.fetchNetflixOriginals} 
+        fetchURL={requests.fetchNetflixOriginals}
         isLargeRow
       />
       <Row title='Trending Now' fetchURL={requests.fetchTrending} />
